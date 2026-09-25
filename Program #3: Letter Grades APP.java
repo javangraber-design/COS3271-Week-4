@@ -18,7 +18,7 @@ public class MyProject {
         int scoreDigit = testscore % 10;
         String gradeAdjustment;
         
-        //Isolate the F and A because there is no F+ or A+ and display
+        //Isolate the F and A because there is no F+ or A+ and display it
         if (testscore < 60) {System.out.format("Grade = " + (char)ascii);}
         
         else if (testscore >= 100) {System.out.println("Grade = A");}
