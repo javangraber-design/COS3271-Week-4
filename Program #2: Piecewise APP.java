@@ -15,7 +15,7 @@ public class MyProject {
     	number = userinput.nextDouble();
     	userinput.nextLine();
     	
-    	//Print the result
+    	//Display the result
     	if (number < 0) {System.out.format("\t3x + 7 = %.2f\n", 3 * number + 7);}
     	else if (number <= 10) {System.out.format("\tx^2 + 8 = %.2f\n", Math.pow(number, 2) + 8);}
     	else if (number > 10) {System.out.format("\tx^3 - 6x^2 = %.2f\n", (Math.pow(number, 3)) - (6 * (Math.pow(number, 2))));}
