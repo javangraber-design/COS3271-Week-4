@@ -35,7 +35,7 @@ public class MyProject {
         	//Analyze the age for the correct response
         	if (age <= 6) {System.out.println("Make sure to pray to Jesus about it. He will help you be happy.");}
         	else if (age <= 13) {System.out.println("Have you talked to God about your feelings? Praying almost always helps.");}
-        	else {System.out.println("I'm so sorry that you upset! I recommend praying to God about it and asking Him for peace.");}	
+        	else {System.out.println("I'm so sorry that you're upset! I recommend praying to God about it and asking Him for peace.");}	
         }
         
         else if (feeling == 2) {
